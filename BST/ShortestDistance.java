@@ -28,7 +28,7 @@ class ShortestDistance {
         }
         int cmp = ((Integer)root.data).compareTo(val);
         if(cmp == 0) {
-            System.out.println("fghjkk ");
+            //System.out.println("found element ");
             return 0;
         }
         if(cmp < 0) {
